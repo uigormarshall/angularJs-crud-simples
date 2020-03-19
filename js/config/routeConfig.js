@@ -1,4 +1,4 @@
-app.config( function($routeProvider,  $locationProvider) {
+angular.module('angularCrudSimples').config( function($routeProvider,  $locationProvider) {
     $locationProvider.hashPrefix('');
     $routeProvider.when("/usuarios", {
          templateUrl: "js/views/usuarios/list.html",

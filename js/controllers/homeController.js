@@ -1,3 +1,5 @@
-app.controller('HomeController', function($scope) {
-    $scope.screenName = "Home";
-});
+angular.module('angularCrudSimples').controller('HomeController', homeController);
+homeController.$inject = ['$scope', 'homeService'];
+function homeController($scope, homeService) {
+    $scope.screenName = homeService.getTitulo()
+}

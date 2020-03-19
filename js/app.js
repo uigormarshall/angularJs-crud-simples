@@ -1,1 +1,1 @@
-var app = angular.module('angularCrudSimples', ["ngRoute"]);
+angular.module('angularCrudSimples', ["ngRoute"]);

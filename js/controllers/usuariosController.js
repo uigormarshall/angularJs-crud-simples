@@ -1,3 +1,3 @@
-app.controller('UsuariosController', function($scope) {
+angular.module('angularCrudSimples').controller('UsuariosController', function($scope) {
     $scope.screenName = "Usuarios";
 });
